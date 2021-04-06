@@ -3,10 +3,11 @@
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('if stringyPokedex exists, return parsedPokedex. If not, return an empty array', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
+    const stringyPokedex = localStorage.getItem('POKEDEX');
+    const expected = stringyPokedex;
     
     //Act 
     // Call the function you're testing and set the result to a const
