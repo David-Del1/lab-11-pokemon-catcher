@@ -1,0 +1,28 @@
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    margin: 1.5rem;
+    font-size: 2rem;
+}
+
+ ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    
+}
+
+ul li h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: lightcoral;
+}
+
+ul li p {
+    text-align: center;
+    font-size: 1.5rem;
+}

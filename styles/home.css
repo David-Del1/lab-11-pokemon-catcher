@@ -1,1 +1,17 @@
 /* add home page styles here */
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    font-weight: 700;
+    font-size: 2rem;
+    outline: none;
+    margin: 2rem;
+}

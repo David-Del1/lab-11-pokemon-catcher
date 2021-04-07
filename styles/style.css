@@ -1,1 +1,16 @@
+body {
+    height: 100%;
+}
 
+input {
+    display: none;
+}
+
+input:checked + img {
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+img {
+    height: 300px;
+}
